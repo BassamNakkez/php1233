@@ -1,0 +1,272 @@
+/* *
+{
+    box-sizing: border-box;
+} */
+.background
+{
+    height: 755px;
+    width: 1590px;
+    background:rgb(212, 176, 176);
+}
+.container
+{
+   
+    margin: 20px auto;
+    height: 300px;
+    width: 480px;
+    background:rgb(212, 176, 176);
+    
+}
+
+.wall
+{
+    background: rgb(241, 98, 122);
+    height: 24px;
+    width: 24px;
+    color: rgb(87, 70, 185);
+    padding: 20px;
+    font-size: 20;
+    text-align: center;
+    gap: 10px 20px;
+    float: left;
+}
+.btn
+{
+    background:rgb(61, 54, 54);
+    color: white;
+    width: 100px;
+    height: 32px;
+}
+.path
+{
+    height: 24px;
+    width: 24px;
+    padding: 20px;
+    font-size: 20;
+    text-align: center;
+    gap: 10px 20px;
+    float: left;
+    background:rgb(148, 141, 141);
+}
+.space
+{
+    background:rgb(212, 176, 176);
+    height: 24px;
+    width: 24px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 20;
+    text-align: center;
+    gap: 10px 20px;
+    float: left;
+}
+.box1
+{
+    background: rgb(108, 109, 107);
+    height: 14px;
+    width: 14px;
+    color: rgb(238, 236, 248);
+    padding: 20px;
+    font-size: 22;
+    text-align: center;
+    border: 5px solid rgb(81, 83, 81);
+    gap: 10px 20px;
+    float: left;
+}
+.box2
+{
+    background: rgb(108, 109, 107);
+    height: 14px;
+    width: 14px;
+    color: rgb(238, 236, 248);
+    padding: 20px;
+    font-size: 22;
+    text-align: center;
+    border: 5px solid rgb(81, 83, 81);
+    gap: 10px 20px;
+    float: left;
+}
+.box3
+{
+    background: rgb(108, 109, 107);
+    height: 14px;
+    width: 14px;
+    color: rgb(238, 236, 248);
+    padding: 20px;
+    font-size: 22;
+    text-align: center;
+    border: 5px solid rgb(81, 83, 81);
+    gap: 10px 20px;
+    float: left;
+}
+.box4
+{
+    background: rgb(108, 109, 107);
+    height: 14px;
+    width: 14px;
+    color: rgb(238, 236, 248);
+    padding: 20px;
+    font-size: 22;
+    text-align: center;
+    border: 5px solid rgb(81, 83, 81);
+    gap: 10px 20px;
+    float: left;
+}
+.box5
+{
+    background: rgb(108, 109, 107);
+    height: 14px;
+    width: 14px;
+    color: rgb(238, 236, 248);
+    padding: 20px;
+    font-size: 22;
+    text-align: center;
+    border: 5px solid rgb(81, 83, 81);
+    gap: 10px 20px;
+    float: left;
+}
+.goal1
+{
+    background: rgb(108, 109, 107);
+    height: 14px;
+    width: 14px;
+    color: rgb(238, 236, 248);
+    padding: 20px;
+    font-size: 22;
+    text-align: center;
+    border: 5px solid rgb(252, 255, 252);
+    gap: 10px 20px;
+    float: left;
+}
+
+.goal2
+{
+    background: rgb(108, 109, 107);
+    height: 14px;
+    width: 14px;
+    color: rgb(238, 236, 248);
+    padding: 20px;
+    font-size: 22;
+    text-align: center;
+    border: 5px solid rgb(252, 255, 252);
+    gap: 10px 20px;
+    float: left;
+}
+.goal3
+{
+    background: rgb(108, 109, 107);
+    height: 14px;
+    width: 14px;
+    color: rgb(238, 236, 248);
+    padding: 20px;
+    font-size: 22;
+    text-align: center;
+    border: 5px solid rgb(252, 255, 252);
+    gap: 10px 20px;
+    float: left;
+}
+.goal4
+{
+    background: rgb(108, 109, 107);
+    height: 14px;
+    width: 14px;
+    color: rgb(238, 236, 248);
+    padding: 20px;
+    font-size: 22;
+    text-align: center;
+    border: 5px solid rgb(252, 255, 252);
+    gap: 10px 20px;
+    float: left;
+}
+.goal5
+{
+    background: rgb(108, 109, 107);
+    height: 14px;
+    width: 14px;
+    color: rgb(238, 236, 248);
+    padding: 20px;
+    font-size: 22;
+    text-align: center;
+    border: 5px solid rgb(252, 255, 252);
+    gap: 10px 20px;
+    float: left;
+}
+
+.ok1
+{
+    background: rgb(238, 155, 61);
+    height: 14px;
+    width: 14px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 22;
+    text-align: center;
+    border: 5px solid rgb(192, 110, 2);
+    gap: 10px 20px;
+    float: left;
+}
+.ok3
+{
+    background: rgb(112, 201, 10);
+    height: 14px;
+    width: 14px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 22;
+    text-align: center;
+    border: 5px solid rgb(99, 158, 3);
+    gap: 10px 20px;
+    float: left;
+}
+.ok5
+{
+    background: rgb(202, 68, 219);
+    height: 14px;
+    width: 14px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 22;
+    text-align: center;
+    border: 5px solid rgb(148, 24, 185);
+    gap: 10px 20px;
+    float: left;
+}
+.ok4
+{
+    background: rgb(68, 171, 219);
+    height: 14px;
+    width: 14px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 22;
+    text-align: center;
+    border: 5px solid rgb(19, 127, 177);
+    gap: 10px 20px;
+    float: left;
+}
+.ok2
+{
+    background: rgb(230, 120, 180);
+    height: 14px;
+    width: 14px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 22;
+    text-align: center;
+    border: 5px solid rgb(226, 81, 81);
+    gap: 10px 20px;
+    float: left;
+}
+.End
+{
+    background: rgb(238, 241, 241);
+    height: 25px;
+    width: 770px;
+    color: rgb(212, 16, 16);
+    padding: 20px;
+    font-size:30;
+    text-align: center;
+    gap: 10px 20px;
+    margin: 20px auto;
+
+}
